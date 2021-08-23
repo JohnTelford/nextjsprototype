@@ -1,16 +1,12 @@
 // components/Header.js
+import Link from "next/link";
 
-const Header = () => (
-  <div className="Header">
-    HEADER
-    <style jsx>{`
-      background-color: blue;
-      color: white;
-      width: 100%;
-      height: 50px;
-    `}</style>
-  </div>
+import "./Header.scss";
+
+const Header = props => (
+  <Link href="/">
+    <div className="Header">{props.appTitle}</div>
+  </Link>
 );
 
 export default Header;
-  
