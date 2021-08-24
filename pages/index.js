@@ -6,6 +6,6 @@ import Layout from "../components/Layout";
 
 import "./index.scss";
 
-const Index = () => <Layout>Welcome to WHATABYTE!</Layout>;
+const Index = () => <Layout>Welcome to JohnTelford.com!</Layout>;
 
 export default Index;
